@@ -1,0 +1,220 @@
+/*header - the same on all pages*/
+
+li {
+/*	list-style: none;*/
+	display: inline-block;
+	/*display: block (default);*/
+	font-family: fantasy;
+	font-size: 1.1rem;
+	color: green;
+}
+
+.biticon {
+	transition: all 1s;
+}
+
+.biticon:hover {
+	transform: rotate(180deg);
+}
+
+/*paragraph on top of INDEX page*/
+
+.pafternavigation {
+	background-image: url(geometric.jpg);
+	height: 2rem;
+}
+
+/*first SECTION on INDEX page + SHIBA page*/
+
+.fearimg {
+	margin: 10px;
+	float: left;
+	margin-bottom: 7px;
+}
+
+.lorem {
+/*	border: 1px solid purple;*/
+	font-family: 'PT Sans', sans-serif;
+}
+
+/*second SECTION on INDEX page*/
+
+.section2index {
+	height: 7rem;
+	font-family: serif;
+}
+
+.lieth {
+	color: orange;
+}
+
+/*first SECTION on SHIBA page*/
+
+.section1shiba {
+/*	background-color: rgb(237, 170, 82, 0.8);*/
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.shibaimg {
+	cursor: no-drop;
+/*	background-color: #36487D;*/
+	transition: all 3s;
+}
+
+.shibaimg:hover {
+	transform: rotate(360deg);
+}
+
+/*second SECTION on SHIBA page*/
+
+.section2shiba {
+	text-align: center;
+}
+
+.boxmodel {
+	border: 4px solid red;
+	display: inline-block;
+	padding: 12px 3px;
+	margin: 2px 3px;
+	width: 13px;
+	height: 5px;
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 1em;
+	margin-bottom: 50px;
+}
+
+/*FOOTER on SHIBA page*/
+
+.footershiba {
+	font-size: 1.1rem;
+}
+
+.footershiba:hover {
+	font-size: 1.2rem;
+}
+
+.footershiba h4 {
+	color: green;
+	font-family: cursive;
+	text-align: center;
+}
+
+/*first SECTION on REGISTER page*/
+
+form {
+	background-image: url();
+/*	background-size: cover;*/
+	line-height: 30px;
+	font-style: italic;
+/*	font-weight: bold;
+	font-weight: 300;*/
+	font-size: 130%;
+	font-family: georgia, "Times New Roman";
+	margin-top: 1.2rem;
+}
+
+
+/*second SECTION on REGISTER page*/
+
+
+h6 {
+	text-decoration: underline;
+/*	text-decoration: line-through;*/
+	text-transform: uppercase;
+}
+
+/*FOOTER on REGISTER page*/
+
+.footerregister {
+	color: orange;
+	background-image: url(polygon.jpg);
+}
+
+/*first DIV on WILD page*/
+
+.wildlifetitle {
+	border-bottom: 2px solid orange;
+	border-right: 2px solid orange;
+	width: 250px;
+	font-family: fantasy;
+	font-size: 3em;
+	text-align: center;
+	transform: all 1s;
+}
+
+.wildlifetitle:hover {
+	transform: scale(1.1);
+}
+
+.wildlifep {
+	font-family: cursive;
+}
+
+/*second DIV on WILD page*/
+
+.div2wild {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.containerimg {
+	width: 380px;
+	height: 230px;
+	margin: 5px;
+	transition: all 2s;
+}
+
+.containerimg:hover {
+	transform: scale(1.1);
+}
+
+
+/*FOOTER on WILD page*/
+
+.footerwild {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	font-size: 120%;
+	background-color: lightblue;
+	box-shadow: 10px 5px 20px orange inset;
+}
+
+.footerwild h4 {
+	color: black;
+}
+
+/*div {
+	font-size: 50px;
+}
+
+span {
+	font-size: 2em;
+}*/
+
+/*em is relative to the font-size of its direct or nearest parent.
+rem is only relative to the html (root) font-size.
+
+Article about this topic:
+https://elementor.com/help/whats-the-difference-between-px-em-rem-vw-and-vh/*/
+
+/*
+.longlorem {
+	font-weight: 50px;
+	line-height: 20px;
+}*/
+
+/*.shortlorem {
+	line-height: 10px;
+} */
+
+/*img {
+	float: right;
+}
+
+footer {
+	clear:both;
+}*/
